@@ -3,15 +3,15 @@ layout: about
 title: about
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-subtitle: Munich based researcher for Transportation, Mobility Systems & Logistics
-  <p>Expertise in Scientific Computing, Simulation, Optimization and Machine Learning</p>
+subtitle: Munich based researcher for Transportation, Mobility Systems & Logistics <br> Expertise in Scientific Computing, Simulation, Optimization and Machine Learning
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p></p>
+    <p>arslanali.syed@outlook.com</p>
+    <p>Location: Munich, Germany</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

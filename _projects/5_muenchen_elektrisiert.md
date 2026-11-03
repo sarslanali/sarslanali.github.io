@@ -2,7 +2,7 @@
 layout: page
 title: München elektrisiert (Mᵉ)
 description: EV charging strategies and public charging infrastructure for electric ride-pooling, evaluated using FleetPy in Munich.
-img: assets/img/projects/MuenchenElektrisiert/charging-search-policies.png
+img: assets/img/projects/MuenchenElektrisiert/thumbnail.png
 importance: 5
 category: funded projects
 permalink: /projects/muenchen-elektrisiert/

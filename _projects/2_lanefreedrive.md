@@ -3,7 +3,7 @@ layout: page
 title: LaneFreeDrive
 permalink: /software/lanefreedrive/
 description: Modular C++ control-algorithm library for lane-free traffic, built on TrafficFluid-Sim (modified SUMO).
-img: assets/img/projects/LaneFreeDrive/lanefreedrive-pl-controller.jpg
+img: assets/img/projects/LaneFreeDrive/lanefreedrive-thumbnail.png
 importance: 2
 category: software
 ---

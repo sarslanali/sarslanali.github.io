@@ -38,13 +38,14 @@ latest_posts:
 
 ## Hi, welcome to my website!
 
-I am a researcher and engineer with a Ph.D. in Transportation Engineering and an M.Sc. in Computational Science and 
-Engineering from the Technical University of Munich (TUM), and nearly nine years of combined academic and industrial 
-experience at TUM and BMW Group. In my last role at TUM, I also led the research group **Test Fields and Simulators**.
+I am a researcher and engineer specializing in transportation systems, optimization, simulation, and machine learning. 
+I hold a Ph.D. from the Technical University of Munich (TUM) and have nearly a decade of academic and industrial 
+research and development experience at TUM, BMW Group, and Infineon Technologies.
 
-My research interests include transportation and mobility systems, logistics, fleet management, connected and autonomous
-vehicles, and mobility digital twins. My work combines mathematical optimization, agent-based simulation, demand forecasting, 
-artificial intelligence, and machine learning to develop efficient and sustainable solutions for complex systems.
+At TUM, I led the research group **Test Fields and Simulators**. I was a founding co-developer of FleetPy, an agent-based 
+simulation framework for mobility services that has been used in multiple research projects and publications at TUM. 
+I subsequently expanded my research into connected autonomous vehicles and developed LaneFreeDrive, a modular library 
+for lane-free traffic simulation and control algorithms.
 
 
 <style>
@@ -53,7 +54,7 @@ artificial intelligence, and machine learning to develop efficient and sustainab
 .featured-item { display: flex; align-items: center; gap: 20px; margin-bottom: 22px; }
 .featured-item img { width: 120px; max-width: 30vw; height: auto; }
 .featured-item p { font-size: 0.88rem; margin: 5px 0; }
-.profile .more-info a { color: #000 !important; }
+.profile .more-info a { color: var(--global-text-color) !important; }
 .profile .more-info a:hover { color: var(--global-theme-color) !important; }
 </style>
 

@@ -21,7 +21,11 @@ profile:
       <a href="https://github.com/sarslanali" title="GitHub"><i class="fa-brands fa-github"></i></a>
     </p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: true
+scholar:
+  sort_by: selected_order
+  order: ascending
+
 social: false # includes social icons at the bottom of the page
 
 announcements:

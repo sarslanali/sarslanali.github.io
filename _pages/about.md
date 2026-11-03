@@ -27,15 +27,48 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-## About Me
+## Hi, welcome to my website!
 
 I am a researcher and engineer with a Ph.D. in Transportation Engineering and an M.Sc. in Computational Science and 
 Engineering from the Technical University of Munich (TUM), and nearly nine years of combined academic and industrial 
-experience at TUM and BMW Group.
+experience at TUM and BMW Group. In my last role at TUM, I also led the research group **Test Fields and Simulators**.
 
 My research interests include transportation and mobility systems, logistics, fleet management, connected and autonomous
 vehicles, and mobility digital twins. My work combines mathematical optimization, agent-based simulation, demand forecasting, 
 artificial intelligence, and machine learning to develop efficient and sustainable solutions for complex systems.
+
+
+<style>
+.featured { margin: 50px 0 35px; }
+.featured h2 { font-size: 1.5rem; margin-bottom: 20px; }
+.featured-item { display: flex; align-items: center; gap: 20px; margin-bottom: 22px; }
+.featured-item img { width: 120px; max-width: 30vw; height: auto; }
+.featured-item p { font-size: 0.88rem; margin: 5px 0; }
+</style>
+
+<div class="featured">
+<h2>Featured Software</h2>
+
+<div class="featured-item">
+  <a href="{{ '/software/fleetpy/' | relative_url }}">
+    <img src="{{ '/assets/img/projects/FleetPy/fleetpy.png' | relative_url }}" alt="FleetPy">
+  </a>
+  <div><b>FleetPy</b>
+    <p>Open-source simulation framework for mobility-on-demand services and fleet optimization.</p>
+    <a href="{{ '/software/fleetpy/' | relative_url }}">Learn more →</a>
+  </div>
+</div>
+
+<div class="featured-item">
+  <a href="{{ '/software/lanefreedrive/' | relative_url }}">
+    <img src="{{ '/assets/img/projects/LaneFreeDrive/lanefreedrive-thumbnail.png' | relative_url }}" alt="LaneFreeDrive">
+  </a>
+  <div><b>LaneFreeDrive</b>
+    <p>Modular simulation framework for lane-free traffic and connected autonomous vehicles.</p>
+    <a href="{{ '/software/lanefreedrive/' | relative_url }}">Learn more →</a>
+  </div>
+</div>
+</div>
 
 
 

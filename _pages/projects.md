@@ -6,8 +6,30 @@ description:
 nav: true
 nav_order: 3
 display_categories: [software,funded projects]
-horizontal: false
+horizontal: true
 ---
+
+<style>
+  .projects h2.category {
+    text-align: left !important;
+    color: var(--global-text-color) !important;
+    font-size: 1.5rem !important;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-left: 4px solid var(--global-theme-color);
+    padding-left: 12px;
+    margin: 35px 0 20px;
+    line-height: 1.3;
+  }
+  .projects > a { text-decoration: none !important; }
+
+.projects .card .row.no-gutters { display: flex; flex-wrap: nowrap; align-items: center; }
+.projects .card .row.no-gutters > div:first-child:not(:last-child) { flex: 0 0 180px; max-width: 180px; }
+.projects .card .row.no-gutters > div:nth-child(2) { flex: 1; min-width: 0; }
+.projects .card-img { width: 100%; height: 150px; object-fit: contain; }
+.projects .card-body { padding: 12px; }
+
+</style>
 
 <!-- pages/projects.md -->
 <div class="projects">

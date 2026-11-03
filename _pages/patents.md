@@ -4,7 +4,7 @@ title: Patents & Patent Applications
 permalink: /patents/
 nav: true
 nav_order: 4
-description: Published European patent applications from AI and mobility optimization work at BMW Group.
+description: Published European patent applications from optimization, machine learning and mobility services work at BMW Group.
 ---
 
 <style>

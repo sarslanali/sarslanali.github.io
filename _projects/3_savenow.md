@@ -3,7 +3,7 @@ layout: page
 title: SAVeNoW
 permalink: /projects/savenow/
 description: Funded research on lane-free traffic, human perception and the development of a dynamic driving-simulator test capability.
-img: assets/img/projects/SAVeNoW/savenow-simulator.jpg
+img: assets/img/projects/SAVeNoW/savenow-thumbnail.png
 importance: 1
 category: funded projects
 ---

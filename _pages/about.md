@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-subtitle: Researcher for Transportation, Mobility Systems & Logistics <br> Expertise in Scientific Computing, Simulation, Optimization and Machine Learning
+subtitle: Researcher in Transportation Systems, Optimization, Simulation & AI
 
 profile:
   align: right
@@ -36,7 +35,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-## Hi, welcome to my website!
+## About Me
 
 I am a researcher and engineer specializing in transportation systems, optimization, simulation, and machine learning. 
 I hold a Ph.D. from the Technical University of Munich (TUM) and have nearly a decade of academic and industrial 
@@ -126,7 +125,11 @@ for lane-free traffic simulation and control algorithms.
   <div class="details">
     <div class="institution">BMW Group (2017–2020)</div>
     <div class="role">Research Associate – Mobility Services</div>
-    <div class="description">Developed fleet management algorithms using mathematical optimization and machine learning.</div>
+    <div class="description">
+        Developed fleet management algorithms using mathematical optimization and machine learning.
+        <p>Named inventor on six published European patent applications</p>.
+        <a href="{{ '/patents/' | relative_url }}">View patent applications →</a>
+    </div>
   </div>
 </div>
 

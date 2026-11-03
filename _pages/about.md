@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 subtitle: Munich based researcher for Transportation, Mobility Systems & Logistics <br> Expertise in Scientific Computing, Simulation, Optimization and Machine Learning

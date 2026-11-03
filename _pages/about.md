@@ -12,6 +12,15 @@ profile:
   more_info: >
     <p>arslanali.syed@outlook.com</p>
     <p>Location: Munich, Germany</p>
+    <p style="display:flex; gap:16px; font-size:1.7rem;">
+      <a href="/assets/pdf/CV.pdf" title="Download CV" target="_blank"> <i class="ai ai-cv"></i> </a>
+      <a href="mailto:arslanali.syed@outlook.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=hUpg_fQAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://www.linkedin.com/in/arslan-ali-syed" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://orcid.org/0000-0003-4929-1307" title="ORCID"><i class="ai ai-orcid"></i></a>
+      <a href="https://www.researchgate.net/profile/Arslan-Ali-13" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
+      <a href="https://github.com/sarslanali" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -44,6 +53,8 @@ artificial intelligence, and machine learning to develop efficient and sustainab
 .featured-item { display: flex; align-items: center; gap: 20px; margin-bottom: 22px; }
 .featured-item img { width: 120px; max-width: 30vw; height: auto; }
 .featured-item p { font-size: 0.88rem; margin: 5px 0; }
+.profile .more-info a { color: #000 !important; }
+.profile .more-info a:hover { color: var(--global-theme-color) !important; }
 </style>
 
 <div class="featured">

@@ -29,6 +29,14 @@ horizontal: true
 .projects .card-img { width: 100%; height: 150px; object-fit: contain; }
 .projects .card-body { padding: 12px; }
 
+.projects .card-title { overflow-wrap: anywhere; }
+@media (max-width: 575px) {
+  .projects .card .row.no-gutters { flex-wrap: wrap; }
+  .projects .card .row.no-gutters > div:first-child:not(:last-child),
+  .projects .card .row.no-gutters > div:nth-child(2) { flex: 0 0 100%; max-width: 100%; }
+  .projects .card-img { height: 130px; }
+}
+
 </style>
 
 <!-- pages/projects.md -->

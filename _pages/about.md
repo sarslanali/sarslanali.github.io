@@ -60,6 +60,8 @@ for lane-free traffic simulation and control algorithms.
 .featured-item p { font-size: 0.88rem; margin: 5px 0; }
 .profile .more-info a { color: var(--global-text-color) !important; }
 .profile .more-info a:hover { color: var(--global-theme-color) !important; }
+.post h2 a[href*="/publications/"] { text-transform: capitalize; }
+.post h2:has(a[href*="/publications/"]) {margin-top: 50px;}
 </style>
 
 <div class="featured">

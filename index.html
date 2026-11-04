@@ -12,6 +12,8 @@
 .featured-item p { font-size: 0.88rem; margin: 5px 0; }
 .profile .more-info a { color: var(--global-text-color) !important; }
 .profile .more-info a:hover { color: var(--global-theme-color) !important; }
+.post h2 a[href*="/publications/"] { text-transform: capitalize; }
+.post h2:has(a[href*="/publications/"]) {margin-top: 50px;}
 </style> <div class="featured"> <h2>Featured Software</h2> <div class="featured-item"> <a href="/software/fleetpy/"> <img src="/assets/img/projects/FleetPy/fleetpy.png" alt="FleetPy"> </a> <div> <b>FleetPy</b> <p>Open-source simulation framework for mobility-on-demand services and fleet optimization.</p> <a href="/software/fleetpy/">Learn more →</a> </div> </div> <div class="featured-item"> <a href="/software/lanefreedrive/"> <img src="/assets/img/projects/LaneFreeDrive/lanefreedrive-thumbnail.png" alt="LaneFreeDrive"> </a> <div> <b>LaneFreeDrive</b> <p>Modular simulation framework for lane-free traffic and connected autonomous vehicles.</p> <a href="/software/lanefreedrive/">Learn more →</a> </div> </div> </div> <style>
   .cv-summary {
     --heading-size: 1.5rem;      /* Section headings */

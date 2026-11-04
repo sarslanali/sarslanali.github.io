@@ -6,7 +6,7 @@ subtitle: Researcher in Transportation Systems, Optimization, Simulation & AI
 
 profile:
   align: right
-  image: prof_pic_2.jpeg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>arslanali.syed@outlook.com</p>

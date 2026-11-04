@@ -42,7 +42,7 @@ The software separates control logic from experiment setup using reusable compon
   <a href="{{ '/assets/img/projects/LaneFreeDrive/lanefreedrive-pl-controller.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size potential fields and potential lines controller diagram">
     <img src="{{ '/assets/img/projects/LaneFreeDrive/lanefreedrive-pl-controller.jpg' | relative_url }}" alt="Potential fields, artificial forces and the Potential Lines controller for lane-free traffic" loading="lazy">
   </a>
-  <figcaption>Figure 3. Potential fields, artificial forces and the Potential Lines controller. <a href="https://doi.org/10.1016/j.trc.2025.105315">source</a> (CC BY 4.0).</figcaption>
+  <figcaption>Potential fields, artificial forces and the Potential Lines controller. <a href="https://doi.org/10.1016/j.trc.2025.105315">source</a> (CC BY 4.0).</figcaption>
 </figure>
 
 One implemented approach is the **Potential Lines (PL) controller**, which organizes CAVs laterally according to their desired speeds while using artificial repulsive and nudging forces to coordinate surrounding vehicles. The published implementation also incorporates **safe-velocity constraints** to reduce collision risks in dense or mixed traffic.
@@ -55,7 +55,7 @@ To study the transition from fully connected to mixed traffic, LaneFreeDrive als
   <a href="{{ '/assets/img/projects/LaneFreeDrive/lanefreedrive-apl-corridors.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size adaptive potential line corridors diagram">
     <img src="{{ '/assets/img/projects/LaneFreeDrive/lanefreedrive-apl-corridors.jpg' | relative_url }}" alt="Adaptive Potential Lines corridors formed around human-driven vehicles" loading="lazy">
   </a>
-  <figcaption>Figure 4. Adaptive Potential Lines corridors around HDVs. <a href="https://doi.org/10.1016/j.trc.2025.105315">source</a> (CC BY 4.0).</figcaption>
+  <figcaption>Adaptive Potential Lines corridors around HDVs. <a href="https://doi.org/10.1016/j.trc.2025.105315">source</a> (CC BY 4.0).</figcaption>
 </figure>
 
 The **Adaptive Potential Lines (APL)** controller was developed to reduce the restrictions that HDVs impose on CAV movements. It modifies the lateral PL positions near HDVs and creates **APL corridors** that can help CAVs overtake slower vehicles while maintaining coordinated movement.
@@ -78,7 +78,7 @@ At the Technical University of Munich, I developed LaneFreeDrive as a more modul
   <a href="{{ '/assets/img/projects/LaneFreeDrive/lanefreedrive-traffic-waves.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size spatio-temporal traffic speed plots">
     <img src="{{ '/assets/img/projects/LaneFreeDrive/lanefreedrive-traffic-waves.jpg' | relative_url }}" alt="Spatio-temporal vehicle speed plots showing traffic waves for increasing HDV percentages" loading="lazy">
   </a>
-  <figcaption>Figure 8. Traffic waves arising as HDV penetration increases under the PL controller. <a href="https://doi.org/10.1016/j.trc.2025.105315">source</a> (CC BY 4.0).</figcaption>
+  <figcaption>Traffic waves arising as HDV penetration increases under the PL controller. <a href="https://doi.org/10.1016/j.trc.2025.105315">source</a> (CC BY 4.0).</figcaption>
 </figure>
 
 In our [2025 study](https://doi.org/10.1016/j.trc.2025.105315), LaneFreeDrive was used to compare CAV-only and mixed CAV–HDV traffic on a **1 km ring road**. The simulations showed that introducing just **5% HDVs reduced maximum traffic flow by about 20%** relative to the all-CAV case. APL strategies improved performance over the baseline PL controller, with a peak average flow improvement of **nearly 10%** in the evaluated conditions.

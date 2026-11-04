@@ -37,7 +37,7 @@ FleetPy is an open-source, agent-based simulation framework developed at the Tec
   <a href="{{ '/assets/img/projects/FleetPy/fleetpy-architecture.webp' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size FleetPy architecture showing its principal modules and interactions">
     <img src="{{ '/assets/img/projects/FleetPy/fleetpy-architecture.webp' | relative_url }}" alt="FleetPy architecture showing its principal modules and interactions" loading="lazy">
   </a>
-  <figcaption>Figure 2. Main FleetPy modules and interactions. <a href="https://doi.org/10.1186/s12544-026-00823-3">Source</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</figcaption>
+  <figcaption>Main FleetPy modules and interactions. <a href="https://doi.org/10.1186/s12544-026-00823-3">Source</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</figcaption>
 </figure>
 
 FleetPy separates the main components of an MoD system: **customer demand and behavior**, **street networks and routing**, **mobility operators**, **fleet control**, **public transport**, and the interaction between users and providers through a **mobility broker**. The modules can be configured or extended independently.
@@ -50,7 +50,7 @@ This makes it possible to change fleet-control strategies while retaining the sa
   <a href="{{ '/assets/img/projects/FleetPy/fleetpy-control.webp' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size Overview of the FleetPy fleet-control module and its submodules">
     <img src="{{ '/assets/img/projects/FleetPy/fleetpy-control.webp' | relative_url }}" alt="Overview of the FleetPy fleet-control module and its submodules" loading="lazy">
   </a>
-  <figcaption>Figure 4. Fleet-control module. <a href="https://doi.org/10.1186/s12544-026-00823-3">Source</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</figcaption>
+  <figcaption>Fleet-control module. <a href="https://doi.org/10.1186/s12544-026-00823-3">Source</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</figcaption>
 </figure>
 
 The framework includes interchangeable fleet-control methods for **vehicle–request assignment, vehicle repositioning, trip offers and pricing, and charging**. It supports immediate-request and batch-offer simulation flows, allowing different operational policies to be evaluated under shared assumptions. Outputs include service rates, waiting and travel times, vehicle occupancy, empty kilometers, operating costs, and other performance indicators.
@@ -73,7 +73,7 @@ The framework has been used in **several TUM research projects**. FleetPy is a c
   <a href="{{ '/assets/img/projects/FleetPy/fleetpy-benchmarks.webp' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size FleetPy benchmark networks and demand distributions in Chicago, Manhattan and Munich">
     <img src="{{ '/assets/img/projects/FleetPy/fleetpy-benchmarks.webp' | relative_url }}" alt="FleetPy benchmark networks and demand distributions in Chicago, Manhattan and Munich" loading="lazy">
   </a>
-  <figcaption>Figure 6. Benchmark networks, access nodes and demand distributions for Chicago, Manhattan and Munich. <a href="https://doi.org/10.1186/s12544-026-00823-3">Source</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</figcaption>
+  <figcaption>Benchmark networks, access nodes and demand distributions for Chicago, Manhattan and Munich. <a href="https://doi.org/10.1186/s12544-026-00823-3">Source</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</figcaption>
 </figure>
 
 The project provides standardized benchmark datasets for **Manhattan, Chicago, and Munich**, allowing researchers to test operational strategies in different urban contexts. The 2026 paper illustrates this with an assignment-algorithm comparison and a multi-operator scenario examining trade-offs between ride-hailing and ride-pooling.

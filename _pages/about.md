@@ -6,11 +6,12 @@ subtitle: Researcher in Transportation Systems, Optimization, Simulation & AI
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_2.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>arslanali.syed@outlook.com</p>
     <p>Location: Munich, Germany</p>
+    <p>Picture taken in Switzerland, and the credit goes to my wife</p>
     <p style="display:flex; gap:16px; font-size:1.7rem;">
       <a href="/assets/pdf/CV.pdf" title="Download CV" target="_blank"> <i class="ai ai-cv"></i> </a>
       <a href="mailto:arslanali.syed@outlook.com" title="Email"><i class="fa-solid fa-envelope"></i></a>

@@ -144,7 +144,7 @@ for lane-free traffic simulation and control algorithms.
   <img src="{{ '/assets/img/infineon.png' | relative_url }}" alt="Infineon logo">
   <div class="details">
     <div class="institution">Infineon Technologies (2015–2017)</div>
-    <div class="role">Analog Circuit Simulator Developer</div>
+    <div class="role">Analog Circuit Simulator Developer — Intern and MSc thesis student</div>
     <div class="description">Developed numerical methods for high-performance circuit simulation.</div>
   </div>
 </div>

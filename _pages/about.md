@@ -51,6 +51,8 @@ simulation framework for mobility services that has been used in multiple resear
 I subsequently expanded my research into connected autonomous vehicles and developed LaneFreeDrive, a modular library 
 for lane-free traffic simulation and control algorithms.
 
+I am currently looking for new opportunities to apply my expertise to challenging real-world problems.
+
 
 <style>
 .featured { margin: 50px 0 35px; }

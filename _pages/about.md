@@ -55,6 +55,119 @@ I am currently looking for new opportunities to apply my expertise to challengin
 
 
 <style>
+  .highlights {
+    clear: none;
+    margin: 5px 0 35px;
+  }
+
+  .highlights h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+  }
+
+  .highlight-card {
+    padding: 18px;
+    border: 1px solid var(--global-divider-color, #ddd);
+    border-radius: 8px;
+    background: var(--global-card-bg-color, transparent);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .highlight-number {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--global-theme-color);
+    margin-bottom: 10px;
+  }
+
+  .highlight-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 8px;
+  }
+
+  .highlight-description {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .highlight-link {
+    margin-top: auto;
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 700px) {
+    .highlights-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+
+<div class="highlights">
+  <h2>Selected Highlights</h2>
+
+  <div class="highlights-grid">
+
+    <div class="highlight-card">
+      <div class="highlight-number">3</div>
+      <div class="highlight-title">Funded Research Projects</div>
+      <div class="highlight-description">
+        Contributed to national and European research projects
+        on mobility digital twins, simulation, fleet optimization,
+        and electric mobility.
+      </div>
+      <a class="highlight-link"
+         href="{{ '/projects/' | relative_url }}">
+        View projects &rarr;
+      </a>
+    </div>
+
+    <div class="highlight-card">
+      <div class="highlight-number">6</div>
+      <div class="highlight-title">Patent Applications</div>
+      <div class="highlight-description">
+        Named inventor on six published European patent
+        applications related to AI and optimization of mobility
+        services at BMW Group.
+      </div>
+      <a class="highlight-link"
+         href="{{ '/patents/' | relative_url }}">
+        View patent applications &rarr;
+      </a>
+    </div>
+
+    <div class="highlight-card">
+      <div class="highlight-number">17</div>
+      <div class="highlight-title">Research Publications</div>
+      <div class="highlight-description">
+        Authored and co-authored 5 journal and 12 conference
+        papers on optimization, simulation, machine learning,
+        and intelligent transportation systems.
+      </div>
+      <a class="highlight-link"
+         href="{{ '/publications/' | relative_url }}">
+        View publications &rarr;
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<style>
 .featured { margin: 50px 0 35px; }
 .featured h2 { font-size: 1.5rem; margin-bottom: 20px; }
 .featured-item { display: flex; align-items: center; gap: 20px; margin-bottom: 22px; }

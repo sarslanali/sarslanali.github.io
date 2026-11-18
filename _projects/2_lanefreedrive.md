@@ -60,7 +60,8 @@ To study the transition from fully connected to mixed traffic, LaneFreeDrive als
 
 The **Adaptive Potential Lines (APL)** controller was developed to reduce the restrictions that HDVs impose on CAV movements. It modifies the lateral PL positions near HDVs and creates **APL corridors** that can help CAVs overtake slower vehicles while maintaining coordinated movement.
 
-The publication evaluates four APL variants with different corridor-activation rules: **Constant Margin (CM)**, **Neighboring Speed-based Constant Margin (NSCM)**, **Follower-based Adaptive Margin (FAM)**, and **Safe Velocity-based Adaptive Margin (SVAM)**. This illustrates how the library can be used to test alternative control strategies within a shared microscopic simulation setup.
+[//]: # (The publication evaluates four APL variants with different corridor-activation rules: **Constant Margin &#40;CM&#41;**, **Neighboring Speed-based Constant Margin &#40;NSCM&#41;**, **Follower-based Adaptive Margin &#40;FAM&#41;**, and **Safe Velocity-based Adaptive Margin &#40;SVAM&#41;**. This illustrates how the library can be used to test alternative control strategies within a shared microscopic simulation setup.)
+The publication evaluates four APL variants with different corridor-activation rules. This illustrates how the library can be used to test alternative control strategies within a shared microscopic simulation setup.
 
 ## My contributions
 
@@ -72,7 +73,27 @@ At the Technical University of Munich, I developed LaneFreeDrive as a more modul
 - Developing and evaluating **safe-velocity modifications** and the **Adaptive Potential Lines** control approach.
 - Supporting systematic simulation experiments and comparative analysis of control strategies.
 
-## Example application: mixed lane-free traffic
+## Example: Mixed Traffic
+
+<figure class="lanefree-figure"
+        style="--figure-width: var(--waves-width); clear: right;">
+  <video
+    controls
+    playsinline
+    preload="metadata"
+    style="display: block; width: 90%; height: auto;">
+    <source
+      src="https://ars.els-cdn.com/content/image/1-s2.0-S0968090X25003195-mmc3.mp4"
+      type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <figcaption>
+    Lane-free traffic simulation.
+    <a href="https://doi.org/10.1016/j.trc.2025.105315">
+      Syed et al. (2025)
+    </a>.
+  </figcaption>
+</figure>
 
 <figure class="lanefree-figure" style="--figure-width: var(--waves-width);">
   <a href="{{ '/assets/img/projects/LaneFreeDrive/lanefreedrive-traffic-waves.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size spatio-temporal traffic speed plots">
